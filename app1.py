@@ -5,7 +5,7 @@ import numpy as np
 
 # Load models
 model = joblib.load('ckd_deep_model.pkl')
-scaler = joblib.load('scaler3.pkl')
+scaler = joblib.load('scaler(3).pkl')
 label_encoder = joblib.load('target_encoder.pkl')
 
 # Define feature columns (must match training)
